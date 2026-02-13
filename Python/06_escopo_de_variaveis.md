@@ -8,7 +8,7 @@ Compreender escopo é fundamental para evitar erros e comportamentos inesperados
 
 ---
 
-## Variável Local
+### Variável Local
 
 Uma variável criada dentro de uma função é chamada de variável local.
 
@@ -31,7 +31,7 @@ print(mensagem)
 
 Ocorre um erro (`NameError`), pois a variável não existe fora daquele escopo.
 
-### O que acontece aqui?
+#### O que acontece aqui?
 
 - A variável `mensagem` é criada dentro da função.
 
@@ -39,7 +39,7 @@ Ocorre um erro (`NameError`), pois a variável não existe fora daquele escopo.
 
 - Após o término da execução da função, ela deixa de existir naquele escopo.
 
-## Variável Global
+### Variável Global
 
 Uma variável definida fora de qualquer função é chamada de variável global.
 
@@ -72,7 +72,7 @@ incrementar()
 print(contador)
 ```
 
-### O que acontece aqui?
+#### O que acontece aqui?
 
 - A variável `contador` foi definida fora da função.
 
@@ -115,7 +115,7 @@ O Python procura variáveis seguindo esta ordem:
 
 Se a variável não for encontrada nessa sequência, ocorre um erro.
 
-## Observação Importante
+### Observação Importante
 
 Evitar o uso excessivo de variáveis globais é uma boa prática.
 
@@ -129,7 +129,7 @@ Manter variáveis no menor escopo possível:
 
 - Torna funções mais independentes
 
-## Por que entender escopo é importante?
+### Por que entender escopo é importante?
 
 Compreender escopo:
 
