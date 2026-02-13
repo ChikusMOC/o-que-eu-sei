@@ -101,7 +101,7 @@ externa()
 
 A função `interna` consegue acessar `mensagem` porque ela está no escopo da função externa (escopo enclosing).
 
-## Regra de Busca (LEGB)
+### Regra de Busca (LEGB)
 
 O Python procura variáveis seguindo esta ordem:
 
