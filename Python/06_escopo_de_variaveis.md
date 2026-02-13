@@ -57,7 +57,7 @@ mostrar_nome()
 
 Nesse caso, a função consegue acessar a variável global `nome`.
 
-## Modificando Variáveis Globais
+### Modificando Variáveis Globais
 
 Para alterar o valor de uma variável global dentro de uma função, é necessário utilizar a palavra-chave `global`.
 
