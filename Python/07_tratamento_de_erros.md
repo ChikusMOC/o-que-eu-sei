@@ -8,7 +8,7 @@ O tratamento de erros permite que o programa lide com essas situações de forma
 
 ---
 
-## Erro sem Tratamento
+### Erro sem Tratamento
 
 Exemplo:
 
@@ -18,7 +18,7 @@ print(numero)
 ```
 Se o usuário digitar algo que não seja um número, ocorrerá um erro (`ValueError`) e o programa será interrompido.
 
-## Utilizando `try` e `except`
+### Utilizando `try` e `except`
 
 Para evitar que o programa pare inesperadamente, podemos utilizar a estrutura `try` e `except`.
 
@@ -29,14 +29,14 @@ try:
 except ValueError:
     print("Você não digitou um número válido.")
 ```
-### O que acontece aqui?
+#### O que acontece aqui?
 - O bloco `try` contém o código que pode gerar erro.
 
 - Se ocorrer um erro do tipo `ValueError`, o bloco `except` será executado.
 
 - O programa continua executando normalmente após o tratamento.
 
-## Capturando Diferentes Tipos de Erro
+### Capturando Diferentes Tipos de Erro
 Podemos tratar diferentes tipos de exceção.
 
 ```python
@@ -47,7 +47,7 @@ except ZeroDivisionError:
 ```
 Cada tipo de erro possui uma classe específica.
 
-## Capturando o Erro em uma Variável
+### Capturando o Erro em uma Variável
 Podemos capturar informações sobre o erro:
 
 ```python
@@ -58,7 +58,7 @@ except ValueError as erro:
 ```
 A variável `erro` contém detalhes sobre a exceção ocorrida.
 
-## Utilizando `else`
+### Utilizando `else`
 O bloco `else` é executado quando nenhum erro ocorre.
 
 ```python
@@ -69,7 +69,7 @@ except ValueError:
 else:
     print("Conversão realizada com sucesso.")
 ```
-## Utilizando `finally`
+### Utilizando `finally`
 O bloco `finally` sempre será executado, independentemente de erro.
 
 ```python
@@ -82,7 +82,7 @@ finally:
 ```
 Ele é frequentemente utilizado para liberar recursos, como fechar arquivos ou conexões.
 
-## Estrutura Completa
+### Estrutura Completa
 ```python
 try:
     # código que pode gerar erro
@@ -93,14 +93,14 @@ else:
 finally:
     # sempre executado
 ```
-## Observação Importante
+### Observação Importante
 Evite utilizar `except:` de forma genérica.
 
 Capturar exceções de maneira ampla pode ocultar erros inesperados e dificultar a depuração.
 
 O ideal é tratar exceções específicas, tornando o código mais seguro, previsível e fácil de manter.
 
-## Por que tratar erros é importante?
+### Por que tratar erros é importante?
 O tratamento de erros:
 
 - Evita que o programa seja encerrado inesperadamente
