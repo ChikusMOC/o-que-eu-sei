@@ -1,6 +1,7 @@
 ## Pandas
 
 Pandas é uma biblioteca Python para **análise e manipulação de dados**.
+
 Ela facilita trabalhar com tabelas, séries temporais e dados estruturados de forma geral.
 
 Importando a biblioteca
