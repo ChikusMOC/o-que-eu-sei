@@ -5,6 +5,8 @@ O tipo de dado define quais operações podem ser realizadas com aquele valor e 
 
 Como Python utiliza tipagem dinâmica, o tipo é definido automaticamente no momento da atribuição.
 
+---
+
 ## Tipos Numéricos
 ### `int` — Inteiros
 
