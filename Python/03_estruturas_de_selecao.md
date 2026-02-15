@@ -3,6 +3,8 @@
 Estruturas de seleção permitem que o programa tome decisões com base em condições lógicas.
 Elas controlam o fluxo de execução do código, executando diferentes blocos conforme o resultado de uma expressão booleana (`True` ou `False`).
 
+---
+
 ## If / Elif / Else
 
 A estrutura de decisão em Python pode ser composta por:
