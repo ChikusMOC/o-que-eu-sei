@@ -4,6 +4,8 @@ Funções são blocos de código reutilizáveis que executam uma tarefa específ
 
 Elas ajudam a organizar o código, evitar repetições e tornar o programa mais legível e modular.
 
+---
+
 ## Definindo uma Função
 
 Em Python, utilizamos a palavra-chave `def` para criar uma função.
