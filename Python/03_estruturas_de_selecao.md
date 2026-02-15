@@ -26,7 +26,7 @@ else:
     print("Menor que 5")
 ```
 
-## O que acontece nesse exemplo?
+### O que acontece nesse exemplo?
 
 O Python avalia `numero > 5`.
 
