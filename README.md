@@ -11,4 +11,8 @@ O objetivo não é apenas demonstrar códigos funcionando, mas evidenciar meu en
 
 Os assuntos estão estruturados por linguagem e por nível de complexidade, refletindo minha evolução e consolidação dos fundamentos
 
+### [Pandas](./Python/Pandas)
+
+A pasta Pandas contém materiais de introdução à biblioteca Pandas, usada em Python para análise e manipulação de dados.
+
 ---
