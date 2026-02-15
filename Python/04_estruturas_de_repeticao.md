@@ -4,6 +4,8 @@ Estruturas de repetição permitem executar um bloco de código múltiplas vezes
 
 Elas são utilizadas quando precisamos automatizar tarefas repetitivas dentro de um programa.
 
+---
+
 ## Laço `for`
 
 O laço `for` é utilizado para percorrer sequências, como listas, strings ou intervalos numéricos.
